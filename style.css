@@ -1,0 +1,65 @@
+
+body{
+    height: 1700px
+}
+*{padding: 0; margin: 0;}
+.head{
+    font-size: 4em;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    position: relative;
+    top: 40%;
+    right: 8%
+}
+.cover{
+    background: url('https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d8f98f85b993d535cbbeae311e');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.article{
+    margin-left: 250px;
+    font-size: 4em;
+    font-family: Cambria;
+    color:darkblue;    
+}
+.block1  , .block3{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding: 50px;
+    background-color: lightgray;
+    text-align: justify;
+    vertical-align: top
+}
+.block2{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding: 50px;
+    background-color: darkgrey;
+    text-align: justify;    
+}
+
+
+
+#column{
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+   
+}
+
+.block1:hover , .block2:hover , .block3:hover{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+
+
+
+
+
